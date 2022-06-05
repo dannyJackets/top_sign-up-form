@@ -1,0 +1,13 @@
+body{
+    display: flex;
+}
+
+#side_graphic{
+    flex: 1 1 auto;
+}
+
+#form{
+    flex: 2 1 auto;
+}
+
+
