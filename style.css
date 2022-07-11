@@ -6,17 +6,40 @@ body{
 }
 
 #side_graphic{
-    flex: 1;
+    position: relative;
+    width: 40%;
 }
 
 #cyberpunk_pic{
+    max-width: 100%;
+}
+
+#logo{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 25%;
+}
+
+#artist_credit{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    color: white;
 }
 
 #form{
     display: flex;
     flex-direction: column;
-    flex: 2;
     width: 60%;
+    padding-left: 40px;
 }
 
 #footer{
