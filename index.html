@@ -17,12 +17,52 @@
             <a href="https://unsplash.com/photos/yVUQlyRlJSw">Unsplash</a>
         </div>
     </div>
-    <div id="form">
-        <div id="header">This is not a real website. Your data is going nowhere but there's a cool cyberpunk/Toyko-esque picture to the left, so enjoy that. <p>Sign up and give me all your info.<p\></div>
-        <div id="form_body"></div>
+    <div id="webpage_form">
+        <div id="header">This is not a real website. Your data is going nowhere but there's a cool cyberpunk/Toyko-esque picture to the left, so enjoy that.</div>
+        <form action =""id="form_body" method="post">
+            <div id="form_body_message"><p>Sign up and give me all your info.</p></div>
+            <div id="form_body_input_fields">
+                <div id="form_left_column">
+                    <ul>
+                        <li>
+                            <label for="firstName">First Name</label><br>
+                            <input type="text" id="firstName" name="user_first_name" required>
+                        </li>
+                        <li>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="user_email" required> 
+                        </li>
+                        <li>
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="user_password" required>
+                        </li>
+                    </ul>
+                </div>
+                <div id="form_right_column">
+                    <ul>
+                        <li>
+                            <label for="lastName">Last Name</label><br>
+                            <input type="text" id="lastName" name="user_last_name" required>
+                        </li>
+                        
+                        <li>
+                            <label for="phoneNumber">Phone Number</label><br>
+                            <input type="tel" id="phoneNumber" name="user_phone_number" required>
+                        </li>
+                        
+                        <li>
+                            <label for="confirmPassword">Confirm Password</label><br>
+                            <input type="password" id="confirmPassword" name="user_confirm_password" required>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+
         <div id="footer">
-            <button>Create Account</button>
-            <p>Already have an account? Log in</p>
+            <p><button type="submit">Create Account</button></p>
+
+            Already have an account? <a href="" id="login_link">Log in</a>
         </div>
     </div>
 </body>
